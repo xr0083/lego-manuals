@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8F4B2BA19FA302800F946EA /* tableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F4B2B919FA302800F946EA /* tableViewCell.m */; };
 		E8F9383919F641380043D019 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F9383819F641380043D019 /* Foundation.framework */; };
 		E8F9383B19F641380043D019 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F9383A19F641380043D019 /* CoreGraphics.framework */; };
 		E8F9383D19F641380043D019 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F9383C19F641380043D019 /* UIKit.framework */; };
@@ -22,6 +23,8 @@
 		E8F9385D19F641380043D019 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F9383C19F641380043D019 /* UIKit.framework */; };
 		E8F9386519F641380043D019 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8F9386319F641380043D019 /* InfoPlist.strings */; };
 		E8F9386719F641380043D019 /* sample20141021001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F9386619F641380043D019 /* sample20141021001Tests.m */; };
+		E8F9387519F647AE0043D019 /* lego.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F9387419F647AE0043D019 /* lego.m */; };
+		E8F9387B19F6523D0043D019 /* dataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F9387A19F6523D0043D019 /* dataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8F4B2B819FA302800F946EA /* tableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableViewCell.h; sourceTree = "<group>"; };
+		E8F4B2B919FA302800F946EA /* tableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableViewCell.m; sourceTree = "<group>"; };
 		E8F9383519F641380043D019 /* sample20141021001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample20141021001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F9383819F641380043D019 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E8F9383A19F641380043D019 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +61,10 @@
 		E8F9386219F641380043D019 /* sample20141021001Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sample20141021001Tests-Info.plist"; sourceTree = "<group>"; };
 		E8F9386419F641380043D019 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E8F9386619F641380043D019 /* sample20141021001Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sample20141021001Tests.m; sourceTree = "<group>"; };
+		E8F9387319F647AE0043D019 /* lego.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lego.h; sourceTree = "<group>"; };
+		E8F9387419F647AE0043D019 /* lego.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lego.m; sourceTree = "<group>"; };
+		E8F9387919F6523D0043D019 /* dataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataController.h; sourceTree = "<group>"; };
+		E8F9387A19F6523D0043D019 /* dataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +133,12 @@
 				E8F9385119F641380043D019 /* DetailViewController.m */,
 				E8F9385319F641380043D019 /* Images.xcassets */,
 				E8F9383F19F641380043D019 /* Supporting Files */,
+				E8F9387319F647AE0043D019 /* lego.h */,
+				E8F9387419F647AE0043D019 /* lego.m */,
+				E8F9387919F6523D0043D019 /* dataController.h */,
+				E8F9387A19F6523D0043D019 /* dataController.m */,
+				E8F4B2B819FA302800F946EA /* tableViewCell.h */,
+				E8F4B2B919FA302800F946EA /* tableViewCell.m */,
 			);
 			path = sample20141021001;
 			sourceTree = "<group>";
@@ -254,8 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F9387519F647AE0043D019 /* lego.m in Sources */,
+				E8F4B2BA19FA302800F946EA /* tableViewCell.m in Sources */,
 				E8F9384919F641380043D019 /* AppDelegate.m in Sources */,
 				E8F9384F19F641380043D019 /* MasterViewController.m in Sources */,
+				E8F9387B19F6523D0043D019 /* dataController.m in Sources */,
 				E8F9384519F641380043D019 /* main.m in Sources */,
 				E8F9385219F641380043D019 /* DetailViewController.m in Sources */,
 			);
@@ -462,6 +480,7 @@
 				E8F9386C19F641380043D019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8F9386D19F641380043D019 /* Build configuration list for PBXNativeTarget "sample20141021001Tests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +489,7 @@
 				E8F9386F19F641380043D019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
