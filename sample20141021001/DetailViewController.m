@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "lego.h"
 
 @interface DetailViewController ()
 - (void)configureView;
@@ -31,7 +32,9 @@
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        self.legoTitleLabel.text = self.detailItem.title;
+        self.descriptionTextView.text = self.detailItem.summary;
+    
     }
 }
 

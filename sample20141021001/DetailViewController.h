@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@class lego;
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UITableViewController
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) lego *detailItem;
+@property (weak, nonatomic) IBOutlet UILabel *legoTitleLabel;
+@property (weak, nonatomic) IBOutlet UITextView *descriptionTextView;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end
